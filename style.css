@@ -1543,6 +1543,10 @@ h1 {
         font-size: 18px;
     }
 
+    .banner_about_article {
+        line-height: 25px;
+    }
+
     .cards_about {
         padding: 0 20px;
     }
@@ -1623,10 +1627,6 @@ h1 {
 
     .banner_about_article {
         margin-top: 20px;
-    }
-
-    .banner_about_article {
-        line-height: 25px;
     }
 
     .card_about {
