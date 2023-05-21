@@ -830,6 +830,25 @@ h1 {
 
 }
 
+@media (max-width: 768px) {
+
+    .header {
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .banner,
+    .description_block,
+    .contacts_map {
+        margin-top: 125px;
+    }
+
+    .footer_logo_container {
+        display: none;
+    }
+}
+
 @media (max-width: 680px) {
 
     .menu_burger_button {
@@ -953,6 +972,12 @@ h1 {
         font-size: 16px;
     }
 
+    .banner,
+    .description_block,
+    .contacts_map {
+        margin-top: 107px;
+    }
+
     .banner_title {
         font-size: 24px;
     }
@@ -998,10 +1023,6 @@ h1 {
 
     .partners {
         padding: 80px 0 120px;
-    }
-
-    .footer_logo_container {
-        display: none;
     }
 
     .footer_company_name {
@@ -1125,7 +1146,7 @@ h1 {
     }
 
     .service_description {
-        padding-right: 15px;
+        padding-right: 25px;
     }
 
     .service_list_item {
@@ -1189,6 +1210,14 @@ h1 {
 
     .service_title {
         font-size: 20px;
+    }
+
+    .services_blocks {
+        padding-top: 60px;
+    }
+
+    .service_block {
+        margin-bottom: -30px;
     }
 }
 
@@ -1518,6 +1547,10 @@ h1 {
         height: auto;
     }
 
+    .card_about_text {
+        line-height: 25px;
+    }
+
     .card_about_picture {
         height: 100px;
         background-size: 100px 100px;
@@ -1555,6 +1588,7 @@ h1 {
     .card_about_text,
     .button {
         font-size: 16px;
+        line-height: 20px;
     }
 
     .card_about_title,
@@ -1587,8 +1621,7 @@ h1 {
         margin-top: 20px;
     }
 
-    .banner_about_article,
-    .card_about_text {
+    .banner_about_article {
         line-height: 25px;
     }
 
