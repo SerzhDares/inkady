@@ -844,6 +844,10 @@ h1 {
         margin-top: 125px;
     }
 
+    .products_description {
+        margin-top: 0;
+    }
+
     .footer_logo_container {
         display: none;
     }
