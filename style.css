@@ -467,6 +467,10 @@ h1 {
         margin-left: 0;
     }
 
+    .email {
+        padding-top: 6px;
+    }
+
     .copyright {
         padding: 0 20px;
     }
@@ -698,6 +702,7 @@ h1 {
     .address_contacts_burger {
         color:#fff;
         padding-left: 75px;
+        padding-right: 20px;
     }
 
     .burger_address {
@@ -935,6 +940,11 @@ h1 {
         margin-left: 1px;
     }
 
+    .pesticides_product_card,
+    .fertilizer_product_card {
+        padding-bottom: 50px;
+    }
+
     .partners_content {
         flex-direction: column-reverse;
     }
@@ -964,6 +974,7 @@ h1 {
     }
 
 }
+
 
 @media (max-width: 467px) {
 
@@ -1009,6 +1020,7 @@ h1 {
 
     .products_description {
         padding-top: 4px;
+        margin-top: 0;
     }
 
     .block_title {
@@ -1023,6 +1035,11 @@ h1 {
         font-size: 14px;
         background-size: 74px;
         padding: 170px 34px 22px;
+    }
+
+    .pesticides_product_card,
+    .fertilizer_product_card {
+        padding-bottom: 37px;
     }
 
     .partners {
@@ -1044,10 +1061,21 @@ h1 {
         font-size: 14px;
     }
 
+    .email {
+        padding-top: 7px;
+    }
+
     .copyright {
         margin-top: 62px;
     }
 
+}
+
+@media (max-width: 360px) {
+        
+    .address_contacts_burger {
+        font-size: 15px;
+    }
 }
 
 
@@ -1221,7 +1249,7 @@ h1 {
     }
 
     .service_block {
-        margin-bottom: -30px;
+        margin-bottom: -55px;
     }
 }
 
@@ -1733,6 +1761,7 @@ h1 {
 }
 
 .contacts_address {
+    box-sizing: border-box;
     margin-bottom: 12px;
     height: 46px;
     font-size: 22px;
@@ -1820,7 +1849,8 @@ h1 {
     }
 
     .contacts_address,
-    .contacts_button_block_text {
+    .contacts_button_block_text,
+    .contacts_email_link {
         font-size: 18px;
     }
 
@@ -1830,11 +1860,16 @@ h1 {
 
     .contacts_address {
         display: block;
+        padding-top: 10px;
     }
 
 }
 
 @media (max-width: 768px) {
+
+    .contacts_description_block {
+        width: 51%;
+    }
 
     .contacts_company_name {
         font-size: 26px;
@@ -1844,10 +1879,14 @@ h1 {
         padding-left: 35px;
         height: 30px;
         background-size: 32px;
-        padding-top: 5px;
+        padding-top: 6px;
     }
 
     .contacts_address,
+    .contacts_email_link {
+        font-size: 15px;
+    }
+
     .contacts_button_block_text {
         font-size: 16px;
     }
