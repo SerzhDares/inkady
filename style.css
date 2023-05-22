@@ -1223,6 +1223,20 @@ h1 {
     }
 }
 
+@media (max-width: 480px) {
+
+    .service_block {
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 430px) {
+
+    .service_block {
+        margin-bottom: 40px;
+    }
+}
+
 @media (max-width: 400px) {
 
     .service_block {
@@ -1417,7 +1431,7 @@ h1 {
     .arrow_button {
         min-width: 24px;
         height: 24px;
-        background-size: 24px;
+        background-size: 25px;
     }
 
 }
@@ -1493,6 +1507,14 @@ h1 {
     background-repeat: no-repeat;
     background-position: right 50px bottom 40px;
     background-color: #fff;
+}
+
+.card_about:nth-child(n+3) {
+    border-top: none;
+}
+
+.card_about:nth-child(2n) {
+    border-left: none;
 }
 
 .card_about_title {
@@ -1659,6 +1681,14 @@ h1 {
 
     .card_about {
         width: 100%
+    }
+
+    .card_about:nth-child(n+2) {
+        border-top: none;
+    }
+
+    .card_about:nth-child(2n) {
+        border-left: 1px solid #119C0E;
     }
 
     .card_about_picture {
